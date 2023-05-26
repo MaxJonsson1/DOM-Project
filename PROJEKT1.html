@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="PROJEKT1.css">
+    <script src="PROJEKT1.js"></script>
+    <title>Projekt</title>
+
+</head>
+
+<body>
+
+<br>
+<!--Det finns en div med id: goodvibes. Denna id används sedan även i funktionen: gv(). Den kommer att ändras till en text så fort man trycker på knappen "Good Vibes" -->
+<div>
+
+<h1 id= "h1"></h1>
+        
+</div>
+
+<!--Det finns en id: clock som ändras i funktionen dt(). Tiden visas när knappen "Time" trycks -->
+<div id="clock"></div>
+
+<!-- Bild med height och width och id: image, används i funktionen cp() -->
+<img src="rolig.png" height="30%" width="10%" id="image">
+</div>
+
+<!-- Alla knappar finns i denna diven -->
+<div id="buttons_div">
+
+<!-- Knappar har samma klassnamn för att de ska se likadana ut. Det ändras i style.css. Sen kallar de på sin funktion som finns i script.js när de klickas. -->
+<div>
+    <button class="allbuttons" onclick="cb()">Change Background</button>
+    <button class="allbuttons" onclick="gv();">Good Vibes</button>
+    <button class="allbuttons" onclick="td();">Time</button>
+</div>
+
+<div>
+    <button class="allbuttons" onclick="cp();">Change Picture</button>
+    <button class="allbuttons" onclick="hp();">Hide picture</button>
+    <button class="allbuttons" onclick="sp();">Show picture</button>
+</div>
+
+<div>
+    <button class="allbuttons">Header</button>
+    <button class="allbuttons">Remove header</button>
+    <button class="allbuttons">Show header</button>
+</div>
+
+</div>
+
+</body>
+</html> 
